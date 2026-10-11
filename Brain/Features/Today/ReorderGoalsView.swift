@@ -6,10 +6,7 @@ struct ReorderGoalsView: View {
     @Environment(\.modelContext) private var modelContext
     @Environment(\.dismiss) private var dismiss
 
-    @Query(
-        filter: #Predicate<Goal> { $0.archivedAt == nil },
-        sort: [SortDescriptor(\Goal.sortOrder), SortDescriptor(\Goal.createdAt)]
-    )
+    @Query(GoalQueries.active)
     private var goals: [Goal]
 
     init() {}

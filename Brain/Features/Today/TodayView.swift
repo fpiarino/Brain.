@@ -18,13 +18,10 @@ struct TodayView: View {
     @Environment(\.scenePhase) private var scenePhase
     @Environment(AppModel.self) private var appModel
 
-    @Query(
-        filter: #Predicate<Goal> { $0.archivedAt == nil },
-        sort: [SortDescriptor(\Goal.sortOrder), SortDescriptor(\Goal.createdAt)]
-    )
+    @Query(GoalQueries.active)
     private var goals: [Goal]
 
-    @Query(filter: #Predicate<Goal> { $0.archivedAt != nil })
+    @Query(GoalQueries.archived)
     private var archivedGoals: [Goal]
 
     @State private var today = DayKey.today()

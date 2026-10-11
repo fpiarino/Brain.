@@ -5,10 +5,7 @@ import SwiftUI
 struct ArchivedGoalsView: View {
     @Environment(\.modelContext) private var modelContext
 
-    @Query(
-        filter: #Predicate<Goal> { $0.archivedAt != nil },
-        sort: [SortDescriptor(\Goal.archivedAt, order: .reverse)]
-    )
+    @Query(GoalQueries.archived)
     private var goals: [Goal]
 
     init() {}
