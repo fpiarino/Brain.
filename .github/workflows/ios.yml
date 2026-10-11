@@ -124,3 +124,15 @@ jobs:
         with:
           name: Brain-ipa
           path: Brain.ipa
+
+      # Link fisso, sempre aggiornato all'ultima versione che ha passato i test:
+      # https://github.com/<utente>/<repo>/releases/latest/download/Brain.ipa
+      - name: Pubblica Brain.ipa come ultima versione
+        if: github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release delete ultima --yes --cleanup-tag -R "$GITHUB_REPOSITORY" || true
+          gh release create ultima Brain.ipa -R "$GITHUB_REPOSITORY" --latest \
+            --title "Brain – ultima versione" \
+            --notes "Compilata dal commit ${GITHUB_SHA::7} il $(date -u +%d/%m/%Y). Per installarla segui INSTALLA.md."

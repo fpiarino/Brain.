@@ -16,6 +16,8 @@ App iPhone per tracciare obiettivi. Ogni giorno segni ciascun obiettivo come fat
 
 Le scelte di progetto sono in [DECISIONI.md](DECISIONI.md).
 
+> **Non hai un Mac?** Segui [INSTALLA.md](INSTALLA.md): l'app viene compilata e testata in automatico su GitHub e si installa da un PC Windows con Sideloadly.
+
 ---
 
 ## 1. Cosa ti serve
