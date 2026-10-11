@@ -1,2 +1,11 @@
-858:/Users/runner/work/Brain./Brain./Brain/Features/Today/ReorderGoalsView.swift:9:5: error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
-861:/Users/runner/work/Brain./Brain./Brain/Features/Today/TodayView.swift:21:5: error: the compiler is unable to type-check this expression in reasonable time; try breaking up the expression into distinct sub-expressions
+1415:/Users/runner/work/Brain./Brain./BrainUITests/BrainUITests.swift:41: error: -[BrainUITests.BrainUITests testCreateGoalAndMarkDoneInUnder30Seconds] : XCTAssertLessThan failed: ("42.765703082084656") is not less than ("30.0") - Creare e segnare un obiettivo ha richiesto 42 secondi
+1417:Test Case '-[BrainUITests.BrainUITests testCreateGoalAndMarkDoneInUnder30Seconds]' failed (109.470 seconds).
+1474:/Users/runner/work/Brain./Brain./BrainUITests/BrainUITests.swift:54: error: -[BrainUITests.BrainUITests testOneTapMarksAndSecondTapClears] : XCTAssertFalse failed
+1476:Test Case '-[BrainUITests.BrainUITests testOneTapMarksAndSecondTapClears]' failed (23.867 seconds).
+1543:Test Case '-[BrainUITests.BrainUITests testUndoRestoresPreviousState]' passed (23.040 seconds).
+1544:Test Suite 'BrainUITests' failed at 2026-10-11 13:39:29.222.
+1545:	 Executed 3 tests, with 2 failures (0 unexpected) in 156.377 (156.382) seconds
+1546:Test Suite 'BrainUITests.xctest' failed at 2026-10-11 13:39:29.224.
+1547:	 Executed 3 tests, with 2 failures (0 unexpected) in 156.377 (156.384) seconds
+1548:Test Suite 'All tests' failed at 2026-10-11 13:39:29.225.
+1549:	 Executed 3 tests, with 2 failures (0 unexpected) in 156.377 (156.385) seconds
