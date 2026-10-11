@@ -1,7 +1,10 @@
-1420:Test Case '-[BrainUITests.BrainUITests testCreateGoalAndMarkDoneQuickly]' passed (56.256 seconds).
-1492:Test Case '-[BrainUITests.BrainUITests testOneTapMarksAndSecondTapClears]' passed (26.369 seconds).
-1563:Test Case '-[BrainUITests.BrainUITests testUndoRestoresPreviousState]' passed (19.223 seconds).
-1565:	 Executed 3 tests, with 0 failures (0 unexpected) in 101.849 (101.851) seconds
-1567:	 Executed 3 tests, with 0 failures (0 unexpected) in 101.849 (101.852) seconds
-1569:	 Executed 3 tests, with 0 failures (0 unexpected) in 101.849 (101.853) seconds
-1574:** TEST SUCCEEDED **
+1424:Test Case '-[BrainUITests.BrainUITests testCreateGoalAndMarkDoneQuickly]' passed (66.935 seconds).
+1431:/Users/runner/work/Brain./Brain./BrainUITests/BrainUITests.swift:20: error: -[BrainUITests.BrainUITests testOneTapMarksAndSecondTapClears] : Failed to terminate it.mioprogetto.brain:11675: Failed to terminate it.mioprogetto.brain:0
+1433:Test Case '-[BrainUITests.BrainUITests testOneTapMarksAndSecondTapClears]' failed (66.615 seconds).
+1503:Test Case '-[BrainUITests.BrainUITests testUndoRestoresPreviousState]' passed (30.887 seconds).
+1504:Test Suite 'BrainUITests' failed at 2026-10-11 15:12:23.228.
+1505:	 Executed 3 tests, with 1 failure (0 unexpected) in 164.437 (164.456) seconds
+1506:Test Suite 'BrainUITests.xctest' failed at 2026-10-11 15:12:23.229.
+1507:	 Executed 3 tests, with 1 failure (0 unexpected) in 164.437 (164.457) seconds
+1508:Test Suite 'All tests' failed at 2026-10-11 15:12:23.229.
+1509:	 Executed 3 tests, with 1 failure (0 unexpected) in 164.437 (164.463) seconds
