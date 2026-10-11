@@ -1,22 +1,3 @@
-AppIntentsSSUTraining (in target 'BrainTests' from project 'Brain')
-    cd /Users/runner/work/Brain./Brain.
-    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsnltrainingprocessor --infoplist-path /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Products/Debug-iphonesimulator/Brain.app/PlugIns/BrainTests.xctest/Info.plist --temp-dir-path /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Intermediates.noindex/Brain.build/Debug-iphonesimulator/BrainTests.build/ssu --bundle-id it.mioprogetto.brain.tests --product-path /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Products/Debug-iphonesimulator/Brain.app/PlugIns/BrainTests.xctest --extracted-metadata-path /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Products/Debug-iphonesimulator/Brain.app/PlugIns/BrainTests.xctest/Metadata.appintents --metadata-file-list /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Intermediates.noindex/Brain.build/Debug-iphonesimulator/BrainTests.build/BrainTests.DependencyMetadataFileList --source-file /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Products/Debug-iphonesimulator/Brain.app/PlugIns/BrainTests.xctest/Info.plist --archive-ssu-assets
-2026-10-11 13:34:08.315 appintentsnltrainingprocessor[2360:10683] Parsing options for appintentsnltrainingprocessor
-2026-10-11 13:34:08.316 appintentsnltrainingprocessor[2360:10683] Starting AppIntents SSU YAML Generation
-2026-10-11 13:34:08.316 appintentsnltrainingprocessor[2360:10683] No AppShortcuts found - Skipping.
-
-RegisterExecutionPolicyException /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Products/Debug-iphonesimulator/Brain.app/PlugIns/BrainTests.xctest (in target 'BrainTests' from project 'Brain')
-    cd /Users/runner/work/Brain./Brain.
-    builtin-RegisterExecutionPolicyException /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Products/Debug-iphonesimulator/Brain.app/PlugIns/BrainTests.xctest
-
-Touch /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Products/Debug-iphonesimulator/Brain.app/PlugIns/BrainTests.xctest (in target 'BrainTests' from project 'Brain')
-    cd /Users/runner/work/Brain./Brain.
-    /usr/bin/touch -c /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Products/Debug-iphonesimulator/Brain.app/PlugIns/BrainTests.xctest
-
-RegisterExecutionPolicyException /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Products/Debug-iphonesimulator/Brain.app (in target 'Brain' from project 'Brain')
-    cd /Users/runner/work/Brain./Brain.
-    builtin-RegisterExecutionPolicyException /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Products/Debug-iphonesimulator/Brain.app
-
 Validate /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Products/Debug-iphonesimulator/Brain.app (in target 'Brain' from project 'Brain')
     cd /Users/runner/work/Brain./Brain.
     builtin-validationUtility /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Products/Debug-iphonesimulator/Brain.app -shallow-bundle -infoplist-subpath Info.plist
@@ -35,21 +16,21 @@ Ld /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbne
 
 CopySwiftLibs /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Products/Debug-iphonesimulator/BrainUITests-Runner.app/PlugIns/BrainUITests.xctest (in target 'BrainUITests' from project 'Brain')
     cd /Users/runner/work/Brain./Brain.
-    builtin-swiftStdLibTool --copy --verbose --scan-executable /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Products/Debug-iphonesimulator/BrainUITests-Runner.app/PlugIns/BrainUITests.xctest/BrainUITests --scan-folder /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Products/Debug-iphonesimulator/BrainUITests-Runner.app/PlugIns/BrainUITests.xctest/Frameworks --scan-folder /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Products/Debug-iphonesimulator/BrainUITests-Runner.app/PlugIns/BrainUITests.xctest/PlugIns --scan-folder /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Products/Debug-iphonesimulator/BrainUITests-Runner.app/PlugIns/BrainUITests.xctest/SystemExtensions --scan-folder /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Products/Debug-iphonesimulator/BrainUITests-Runner.app/PlugIns/BrainUITests.xctest/Extensions --platform iphonesimulator --toolchain /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.6.109.0.UxRGV7/Metal.xctoolchain --toolchain /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Products/Debug-iphonesimulator/BrainUITests-Runner.app/PlugIns/BrainUITests.xctest/Frameworks --strip-bitcode --scan-executable /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib --strip-bitcode-tool /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Intermediates.noindex/Brain.build/Debug-iphonesimulator/BrainUITests.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os
+    builtin-swiftStdLibTool --copy --verbose --scan-executable /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Products/Debug-iphonesimulator/BrainUITests-Runner.app/PlugIns/BrainUITests.xctest/BrainUITests --scan-folder /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Products/Debug-iphonesimulator/BrainUITests-Runner.app/PlugIns/BrainUITests.xctest/Frameworks --scan-folder /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Products/Debug-iphonesimulator/BrainUITests-Runner.app/PlugIns/BrainUITests.xctest/PlugIns --scan-folder /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Products/Debug-iphonesimulator/BrainUITests-Runner.app/PlugIns/BrainUITests.xctest/SystemExtensions --scan-folder /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Products/Debug-iphonesimulator/BrainUITests-Runner.app/PlugIns/BrainUITests.xctest/Extensions --platform iphonesimulator --toolchain /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.6.109.0.Gp7hCV/Metal.xctoolchain --toolchain /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Products/Debug-iphonesimulator/BrainUITests-Runner.app/PlugIns/BrainUITests.xctest/Frameworks --strip-bitcode --scan-executable /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib --strip-bitcode-tool /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Intermediates.noindex/Brain.build/Debug-iphonesimulator/BrainUITests.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os
 Ignoring --strip-bitcode because --sign was not passed
 
 ExtractAppIntentsMetadata (in target 'BrainUITests' from project 'Brain')
     cd /Users/runner/work/Brain./Brain.
-    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.6.109.0.UxRGV7/Metal.xctoolchain --module-name BrainUITests --sdk-root /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk --xcode-version 17F113 --platform-family iOS --deployment-target 17.0 --bundle-identifier it.mioprogetto.brain.uitests --output /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Products/Debug-iphonesimulator/BrainUITests-Runner.app/PlugIns/BrainUITests.xctest --target-triple arm64-apple-ios17.0-simulator --binary-file /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Products/Debug-iphonesimulator/BrainUITests-Runner.app/PlugIns/BrainUITests.xctest/BrainUITests --dependency-file /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Intermediates.noindex/Brain.build/Debug-iphonesimulator/BrainUITests.build/Objects-normal/arm64/BrainUITests_dependency_info.dat --stringsdata-file /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Intermediates.noindex/Brain.build/Debug-iphonesimulator/BrainUITests.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Intermediates.noindex/Brain.build/Debug-iphonesimulator/BrainUITests.build/Objects-normal/arm64/BrainUITests.SwiftFileList --metadata-file-list /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Intermediates.noindex/Brain.build/Debug-iphonesimulator/BrainUITests.build/BrainUITests.DependencyMetadataFileList --static-metadata-file-list /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Intermediates.noindex/Brain.build/Debug-iphonesimulator/BrainUITests.build/BrainUITests.DependencyStaticMetadataFileList --swift-const-vals-list /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Intermediates.noindex/Brain.build/Debug-iphonesimulator/BrainUITests.build/Objects-normal/arm64/BrainUITests.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --validate-assistant-intents --no-app-shortcuts-localization
-2026-10-11 13:34:09.201 appintentsmetadataprocessor[2367:10708] Starting appintentsmetadataprocessor export
-2026-10-11 13:34:09.202 appintentsmetadataprocessor[2367:10708] warning: Metadata extraction skipped. No AppIntents.framework dependency found.
+    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.6.109.0.Gp7hCV/Metal.xctoolchain --module-name BrainUITests --sdk-root /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk --xcode-version 17F113 --platform-family iOS --deployment-target 17.0 --bundle-identifier it.mioprogetto.brain.uitests --output /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Products/Debug-iphonesimulator/BrainUITests-Runner.app/PlugIns/BrainUITests.xctest --target-triple arm64-apple-ios17.0-simulator --binary-file /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Products/Debug-iphonesimulator/BrainUITests-Runner.app/PlugIns/BrainUITests.xctest/BrainUITests --dependency-file /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Intermediates.noindex/Brain.build/Debug-iphonesimulator/BrainUITests.build/Objects-normal/arm64/BrainUITests_dependency_info.dat --stringsdata-file /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Intermediates.noindex/Brain.build/Debug-iphonesimulator/BrainUITests.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Intermediates.noindex/Brain.build/Debug-iphonesimulator/BrainUITests.build/Objects-normal/arm64/BrainUITests.SwiftFileList --metadata-file-list /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Intermediates.noindex/Brain.build/Debug-iphonesimulator/BrainUITests.build/BrainUITests.DependencyMetadataFileList --static-metadata-file-list /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Intermediates.noindex/Brain.build/Debug-iphonesimulator/BrainUITests.build/BrainUITests.DependencyStaticMetadataFileList --swift-const-vals-list /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Intermediates.noindex/Brain.build/Debug-iphonesimulator/BrainUITests.build/Objects-normal/arm64/BrainUITests.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --validate-assistant-intents --no-app-shortcuts-localization
+2026-10-11 13:45:32.245 appintentsmetadataprocessor[3268:13710] Starting appintentsmetadataprocessor export
+2026-10-11 13:45:32.260 appintentsmetadataprocessor[3268:13710] warning: Metadata extraction skipped. No AppIntents.framework dependency found.
 
 AppIntentsSSUTraining (in target 'BrainUITests' from project 'Brain')
     cd /Users/runner/work/Brain./Brain.
     /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsnltrainingprocessor --infoplist-path /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Products/Debug-iphonesimulator/BrainUITests-Runner.app/PlugIns/BrainUITests.xctest/Info.plist --temp-dir-path /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Intermediates.noindex/Brain.build/Debug-iphonesimulator/BrainUITests.build/ssu --bundle-id it.mioprogetto.brain.uitests --product-path /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Products/Debug-iphonesimulator/BrainUITests-Runner.app/PlugIns/BrainUITests.xctest --extracted-metadata-path /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Products/Debug-iphonesimulator/BrainUITests-Runner.app/PlugIns/BrainUITests.xctest/Metadata.appintents --metadata-file-list /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Intermediates.noindex/Brain.build/Debug-iphonesimulator/BrainUITests.build/BrainUITests.DependencyMetadataFileList --source-file /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Products/Debug-iphonesimulator/BrainUITests-Runner.app/PlugIns/BrainUITests.xctest/Info.plist --archive-ssu-assets
-2026-10-11 13:34:09.217 appintentsnltrainingprocessor[2368:10710] Parsing options for appintentsnltrainingprocessor
-2026-10-11 13:34:09.218 appintentsnltrainingprocessor[2368:10710] Starting AppIntents SSU YAML Generation
-2026-10-11 13:34:09.218 appintentsnltrainingprocessor[2368:10710] No AppShortcuts found - Skipping.
+2026-10-11 13:45:32.276 appintentsnltrainingprocessor[3269:13713] Parsing options for appintentsnltrainingprocessor
+2026-10-11 13:45:32.277 appintentsnltrainingprocessor[3269:13713] Starting AppIntents SSU YAML Generation
+2026-10-11 13:45:32.277 appintentsnltrainingprocessor[3269:13713] No AppShortcuts found - Skipping.
 
 MkDir /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Products/Debug-iphonesimulator/BrainUITests-Runner.app (in target 'BrainUITests' from project 'Brain')
     cd /Users/runner/work/Brain./Brain.
@@ -107,294 +88,313 @@ Touch /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhj
     cd /Users/runner/work/Brain./Brain.
     /usr/bin/touch -c /Users/runner/Library/Developer/Xcode/DerivedData/Brain-bfzbbanenjifiycqhjbneyrylbax/Build/Products/Debug-iphonesimulator/BrainUITests-Runner.app/PlugIns/BrainUITests.xctest
 
-2026-10-11 13:36:29.760872+0000 BrainUITests-Runner[3037:14803] [Default] Running tests...
-objc[3037]: Class UIAccessibilityLoaderWebShared is implemented in both /Library/Developer/CoreSimulator/Volumes/iOS_23F77/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 26.5.simruntime/Contents/Resources/RuntimeRoot/System/Library/AccessibilityBundles/WebCore.axbundle/WebCore (0x10b1f0310) and /Library/Developer/CoreSimulator/Volumes/iOS_23F77/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 26.5.simruntime/Contents/Resources/RuntimeRoot/System/Library/AccessibilityBundles/WebKit.axbundle/WebKit (0x10b298398). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+2026-10-11 13:47:55.458782+0000 BrainUITests-Runner[5126:20683] [Default] Running tests...
+objc[5126]: Class UIAccessibilityLoaderWebShared is implemented in both /Library/Developer/CoreSimulator/Volumes/iOS_23F77/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 26.5.simruntime/Contents/Resources/RuntimeRoot/System/Library/AccessibilityBundles/WebCore.axbundle/WebCore (0x107fc0310) and /Library/Developer/CoreSimulator/Volumes/iOS_23F77/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 26.5.simruntime/Contents/Resources/RuntimeRoot/System/Library/AccessibilityBundles/WebKit.axbundle/WebKit (0x107ddc398). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
     t =      nans Interface orientation changed to Portrait
-Test Suite 'All tests' started at 2026-10-11 13:36:52.840.
-Test Suite 'BrainUITests.xctest' started at 2026-10-11 13:36:52.841.
-Test Suite 'BrainUITests' started at 2026-10-11 13:36:52.841.
-Test Case '-[BrainUITests.BrainUITests testCreateGoalAndMarkDoneInUnder30Seconds]' started.
-    t =     0.00s Start Test at 2026-10-11 13:36:52.842
-    t =     1.46s Set Up
-    t =     1.65s     Open it.mioprogetto.brain
-    t =     1.65s         Launch it.mioprogetto.brain
-    t =    34.53s             Setting up automation session
-    t =    35.71s             Wait for it.mioprogetto.brain to idle
-    t =    63.08s Waiting 5.0s for "newGoalButton" Button to exist
-    t =    64.12s     Checking `Expect predicate `existsNoRetry == 1` for object "newGoalButton" Button`
-    t =    64.13s         Checking existence of `"newGoalButton" Button`
-    t =    64.71s Tap "newGoalButton" Button
-    t =    64.71s     Wait for it.mioprogetto.brain to idle
-    t =    64.75s     Find the "newGoalButton" Button
-    t =    65.13s     Check for interrupting elements affecting "newGoalButton" Button
-    t =    66.16s     Synthesize event
-    t =    69.49s     Wait for it.mioprogetto.brain to idle
-    t =    72.12s Waiting 5.0s for "goalNameField" TextField to exist
-    t =    73.65s     Checking `Expect predicate `existsNoRetry == 1` for object "goalNameField" TextField`
-    t =    73.69s         Checking existence of `"goalNameField" TextField`
-    t =    77.62s         Capturing element debug description
-    t =    77.66s     Checking existence of `"goalNameField" TextField`
-    t =    98.78s Tap "goalNameField" TextField
-    t =    98.78s     Wait for it.mioprogetto.brain to idle
-    t =    98.79s     Find the "goalNameField" TextField
-    t =    99.46s     Check for interrupting elements affecting "goalNameField" TextField
-    t =    99.72s     Synthesize event
-    t =   100.09s     Wait for it.mioprogetto.brain to idle
-    t =   100.09s Type 'Meno di 1800 kcal' into "goalNameField" TextField
-    t =   100.09s     Wait for it.mioprogetto.brain to idle
-    t =   100.10s     Find the "goalNameField" TextField
-    t =   100.56s     Check for interrupting elements affecting "goalNameField" TextField
-    t =   101.07s     Synthesize event
-    t =   101.66s     Wait for it.mioprogetto.brain to idle
-    t =   101.78s Tap "saveGoalButton" Button
-    t =   101.78s     Wait for it.mioprogetto.brain to idle
-    t =   101.82s     Find the "saveGoalButton" Button
-    t =   101.98s     Check for interrupting elements affecting "saveGoalButton" Button
-    t =   102.10s     Synthesize event
-    t =   102.49s     Wait for it.mioprogetto.brain to idle
-    t =   104.00s Waiting 5.0s for "done-Meno di 1800 kcal" Button to exist
-    t =   105.05s     Checking `Expect predicate `existsNoRetry == 1` for object "done-Meno di 1800 kcal" Button`
-    t =   105.05s         Checking existence of `"done-Meno di 1800 kcal" Button`
-    t =   105.19s Tap "done-Meno di 1800 kcal" Button
-    t =   105.19s     Wait for it.mioprogetto.brain to idle
-    t =   105.20s     Find the "done-Meno di 1800 kcal" Button
-    t =   105.33s     Check for interrupting elements affecting "done-Meno di 1800 kcal" Button
-    t =   105.38s     Synthesize event
-    t =   105.72s     Wait for it.mioprogetto.brain to idle
-/Users/runner/work/Brain./Brain./BrainUITests/BrainUITests.swift:41: error: -[BrainUITests.BrainUITests testCreateGoalAndMarkDoneInUnder30Seconds] : XCTAssertLessThan failed: ("42.765703082084656") is not less than ("30.0") - Creare e segnare un obiettivo ha richiesto 42 secondi
-    t =   106.80s Tear Down
-Test Case '-[BrainUITests.BrainUITests testCreateGoalAndMarkDoneInUnder30Seconds]' failed (109.470 seconds).
+Test Suite 'All tests' started at 2026-10-11 13:48:44.284.
+Test Suite 'BrainUITests.xctest' started at 2026-10-11 13:48:44.291.
+Test Suite 'BrainUITests' started at 2026-10-11 13:48:44.292.
+Test Case '-[BrainUITests.BrainUITests testCreateGoalAndMarkDoneQuickly]' started.
+    t =     0.00s Start Test at 2026-10-11 13:48:44.294
+    t =     1.93s Set Up
+    t =     2.18s     Open it.mioprogetto.brain
+    t =     2.18s         Launch it.mioprogetto.brain
+    t =    30.43s             Setting up automation session
+    t =    34.25s             Wait for it.mioprogetto.brain to idle
+    t =    37.43s Waiting 10.0s for "newGoalButton" Button to exist
+    t =    38.48s     Checking `Expect predicate `existsNoRetry == 1` for object "newGoalButton" Button`
+    t =    38.48s         Checking existence of `"newGoalButton" Button`
+    t =    38.68s Tap "newGoalButton" Button
+    t =    38.68s     Wait for it.mioprogetto.brain to idle
+    t =    38.68s     Find the "newGoalButton" Button
+    t =    38.74s     Check for interrupting elements affecting "newGoalButton" Button
+    t =    39.04s     Synthesize event
+    t =    39.53s     Wait for it.mioprogetto.brain to idle
+    t =    40.71s Waiting 5.0s for "goalNameField" TextField to exist
+    t =    41.80s     Checking `Expect predicate `existsNoRetry == 1` for object "goalNameField" TextField`
+    t =    41.80s         Checking existence of `"goalNameField" TextField`
+    t =    45.54s Tap "goalNameField" TextField
+    t =    45.54s     Wait for it.mioprogetto.brain to idle
+    t =    45.55s     Find the "goalNameField" TextField
+    t =    45.77s     Check for interrupting elements affecting "goalNameField" TextField
+    t =    46.16s     Synthesize event
+    t =    46.52s     Wait for it.mioprogetto.brain to idle
+    t =    46.54s Type 'Meno di 1800 kcal' into "goalNameField" TextField
+    t =    46.54s     Wait for it.mioprogetto.brain to idle
+    t =    46.72s     Find the "goalNameField" TextField
+    t =    48.33s     Check for interrupting elements affecting "goalNameField" TextField
+    t =    49.54s     Synthesize event
+    t =    50.05s     Wait for it.mioprogetto.brain to idle
+    t =    50.58s Tap "saveGoalButton" Button
+    t =    50.58s     Wait for it.mioprogetto.brain to idle
+    t =    50.66s     Find the "saveGoalButton" Button
+    t =    51.69s     Check for interrupting elements affecting "saveGoalButton" Button
+    t =    51.87s     Synthesize event
+    t =    52.22s     Wait for it.mioprogetto.brain to idle
+    t =    53.68s Waiting 5.0s for "done-Meno di 1800 kcal" Button to exist
+    t =    54.73s     Checking `Expect predicate `existsNoRetry == 1` for object "done-Meno di 1800 kcal" Button`
+    t =    54.73s         Checking existence of `"done-Meno di 1800 kcal" Button`
+    t =    54.81s Tap "done-Meno di 1800 kcal" Button
+    t =    54.81s     Wait for it.mioprogetto.brain to idle
+    t =    54.81s     Find the "done-Meno di 1800 kcal" Button
+    t =    54.87s     Check for interrupting elements affecting "done-Meno di 1800 kcal" Button
+    t =    54.93s     Synthesize event
+    t =    55.23s     Wait for it.mioprogetto.brain to idle
+Crea e segna "Meno di 1800 kcal": 16.6 s
+    t =    56.34s Checking `Expect predicate `isSelected == 1` for object "done-Meno di 1800 kcal" Button`
+    t =    56.34s     Find the "done-Meno di 1800 kcal" Button
+    t =    56.41s Tear Down
+Test Case '-[BrainUITests.BrainUITests testCreateGoalAndMarkDoneQuickly]' passed (66.834 seconds).
 Test Case '-[BrainUITests.BrainUITests testOneTapMarksAndSecondTapClears]' started.
-    t =     0.00s Start Test at 2026-10-11 13:38:42.314
-    t =     0.07s Set Up
-    t =     0.07s     Open it.mioprogetto.brain
-    t =     0.07s         Launch it.mioprogetto.brain
-    t =     0.07s             Terminate it.mioprogetto.brain:4320
-    t =     4.17s             Setting up automation session
-    t =     6.16s             Wait for it.mioprogetto.brain to idle
-    t =     8.45s Waiting 5.0s for "newGoalButton" Button to exist
-    t =     9.49s     Checking `Expect predicate `existsNoRetry == 1` for object "newGoalButton" Button`
-    t =     9.49s         Checking existence of `"newGoalButton" Button`
-    t =     9.73s Tap "newGoalButton" Button
-    t =     9.73s     Wait for it.mioprogetto.brain to idle
-    t =     9.73s     Find the "newGoalButton" Button
-    t =     9.80s     Check for interrupting elements affecting "newGoalButton" Button
-    t =     9.84s     Synthesize event
-    t =    10.17s     Wait for it.mioprogetto.brain to idle
-    t =    12.00s Waiting 5.0s for "goalNameField" TextField to exist
-    t =    13.06s     Checking `Expect predicate `existsNoRetry == 1` for object "goalNameField" TextField`
-    t =    13.06s         Checking existence of `"goalNameField" TextField`
-    t =    13.47s Tap "goalNameField" TextField
-    t =    13.47s     Wait for it.mioprogetto.brain to idle
-    t =    13.47s     Find the "goalNameField" TextField
-    t =    13.60s     Check for interrupting elements affecting "goalNameField" TextField
-    t =    13.71s     Synthesize event
-    t =    14.02s     Wait for it.mioprogetto.brain to idle
-    t =    14.03s Type 'Leggere' into "goalNameField" TextField
-    t =    14.03s     Wait for it.mioprogetto.brain to idle
-    t =    14.03s     Find the "goalNameField" TextField
-    t =    14.35s     Check for interrupting elements affecting "goalNameField" TextField
-    t =    14.55s     Synthesize event
-    t =    14.89s     Wait for it.mioprogetto.brain to idle
-    t =    15.20s Tap "saveGoalButton" Button
-    t =    15.20s     Wait for it.mioprogetto.brain to idle
-    t =    15.20s     Find the "saveGoalButton" Button
-    t =    15.43s     Check for interrupting elements affecting "saveGoalButton" Button
-    t =    15.56s     Synthesize event
-    t =    15.92s     Wait for it.mioprogetto.brain to idle
-    t =    17.19s Waiting 5.0s for "done-Leggere" Button to exist
-    t =    18.24s     Checking `Expect predicate `existsNoRetry == 1` for object "done-Leggere" Button`
-    t =    18.25s         Checking existence of `"done-Leggere" Button`
-    t =    18.53s Tap "done-Leggere" Button
+    t =     0.00s Start Test at 2026-10-11 13:49:51.130
+    t =     0.08s Set Up
+    t =     0.08s     Open it.mioprogetto.brain
+    t =     0.08s         Launch it.mioprogetto.brain
+    t =     0.08s             Terminate it.mioprogetto.brain:6631
+    t =     2.84s             Setting up automation session
+    t =     4.64s             Wait for it.mioprogetto.brain to idle
+    t =     6.78s Waiting 10.0s for "newGoalButton" Button to exist
+    t =     7.80s     Checking `Expect predicate `existsNoRetry == 1` for object "newGoalButton" Button`
+    t =     7.81s         Checking existence of `"newGoalButton" Button`
+    t =     8.01s Tap "newGoalButton" Button
+    t =     8.01s     Wait for it.mioprogetto.brain to idle
+    t =     8.01s     Find the "newGoalButton" Button
+    t =     8.12s     Check for interrupting elements affecting "newGoalButton" Button
+    t =     8.29s     Synthesize event
+    t =     8.64s     Wait for it.mioprogetto.brain to idle
+    t =     9.58s Waiting 5.0s for "goalNameField" TextField to exist
+    t =    10.63s     Checking `Expect predicate `existsNoRetry == 1` for object "goalNameField" TextField`
+    t =    10.63s         Checking existence of `"goalNameField" TextField`
+    t =    11.92s Tap "goalNameField" TextField
+    t =    11.92s     Wait for it.mioprogetto.brain to idle
+    t =    11.93s     Find the "goalNameField" TextField
+    t =    12.32s     Check for interrupting elements affecting "goalNameField" TextField
+    t =    12.56s     Synthesize event
+    t =    12.89s     Wait for it.mioprogetto.brain to idle
+    t =    12.89s Type 'Leggere' into "goalNameField" TextField
+    t =    12.89s     Wait for it.mioprogetto.brain to idle
+    t =    12.90s     Find the "goalNameField" TextField
+    t =    13.08s     Check for interrupting elements affecting "goalNameField" TextField
+    t =    13.28s     Synthesize event
+    t =    13.63s     Wait for it.mioprogetto.brain to idle
+    t =    14.00s Tap "saveGoalButton" Button
+    t =    14.00s     Wait for it.mioprogetto.brain to idle
+    t =    14.00s     Find the "saveGoalButton" Button
+    t =    14.19s     Check for interrupting elements affecting "saveGoalButton" Button
+    t =    14.30s     Synthesize event
+    t =    14.62s     Wait for it.mioprogetto.brain to idle
+    t =    15.91s Waiting 5.0s for "done-Leggere" Button to exist
+    t =    16.94s     Checking `Expect predicate `existsNoRetry == 1` for object "done-Leggere" Button`
+    t =    16.94s         Checking existence of `"done-Leggere" Button`
+    t =    17.00s Tap "done-Leggere" Button
+    t =    17.00s     Wait for it.mioprogetto.brain to idle
+    t =    17.00s     Find the "done-Leggere" Button
+    t =    17.05s     Check for interrupting elements affecting "done-Leggere" Button
+    t =    17.10s     Synthesize event
+    t =    17.41s     Wait for it.mioprogetto.brain to idle
+Crea e segna "Leggere": 9.4 s
+    t =    18.46s Checking `Expect predicate `isSelected == 1` for object "done-Leggere" Button`
+    t =    18.47s     Find the "done-Leggere" Button
+    t =    18.54s Tap "missed-Leggere" Button
     t =    18.54s     Wait for it.mioprogetto.brain to idle
-    t =    18.65s     Find the "done-Leggere" Button
-    t =    18.98s     Check for interrupting elements affecting "done-Leggere" Button
-    t =    19.23s     Synthesize event
-    t =    20.10s     Wait for it.mioprogetto.brain to idle
-    t =    20.11s Find the "done-Leggere" Button
-    t =    20.49s Tap "missed-Leggere" Button
-    t =    20.49s     Wait for it.mioprogetto.brain to idle
-    t =    20.52s     Find the "missed-Leggere" Button
-    t =    20.75s     Check for interrupting elements affecting "missed-Leggere" Button
-    t =    20.93s     Synthesize event
-    t =    21.27s     Wait for it.mioprogetto.brain to idle
-    t =    21.28s Find the "missed-Leggere" Button
-    t =    21.47s Find the "done-Leggere" Button
-/Users/runner/work/Brain./Brain./BrainUITests/BrainUITests.swift:54: error: -[BrainUITests.BrainUITests testOneTapMarksAndSecondTapClears] : XCTAssertFalse failed
-    t =    21.90s Tear Down
-Test Case '-[BrainUITests.BrainUITests testOneTapMarksAndSecondTapClears]' failed (23.867 seconds).
-Test Case '-[BrainUITests.BrainUITests testUndoRestoresPreviousState]' started.
-    t =     0.00s Start Test at 2026-10-11 13:39:06.182
-    t =     0.07s Set Up
-    t =     0.07s     Open it.mioprogetto.brain
-    t =     0.07s         Launch it.mioprogetto.brain
-    t =     0.07s             Terminate it.mioprogetto.brain:5771
-    t =     2.65s             Setting up automation session
-    t =     4.47s             Wait for it.mioprogetto.brain to idle
-    t =     7.04s Waiting 5.0s for "newGoalButton" Button to exist
-    t =     8.11s     Checking `Expect predicate `existsNoRetry == 1` for object "newGoalButton" Button`
-    t =     8.11s         Checking existence of `"newGoalButton" Button`
-    t =     8.32s Tap "newGoalButton" Button
-    t =     8.32s     Wait for it.mioprogetto.brain to idle
-    t =     8.33s     Find the "newGoalButton" Button
-    t =     8.38s     Check for interrupting elements affecting "newGoalButton" Button
-    t =     8.46s     Synthesize event
-    t =     8.80s     Wait for it.mioprogetto.brain to idle
-    t =    10.00s Waiting 5.0s for "goalNameField" TextField to exist
-    t =    11.02s     Checking `Expect predicate `existsNoRetry == 1` for object "goalNameField" TextField`
-    t =    11.02s         Checking existence of `"goalNameField" TextField`
-    t =    11.77s Tap "goalNameField" TextField
-    t =    11.77s     Wait for it.mioprogetto.brain to idle
-    t =    12.02s     Find the "goalNameField" TextField
-    t =    12.43s     Check for interrupting elements affecting "goalNameField" TextField
-    t =    12.66s     Synthesize event
-    t =    13.01s     Wait for it.mioprogetto.brain to idle
-    t =    13.11s Type 'Camminare' into "goalNameField" TextField
-    t =    13.11s     Wait for it.mioprogetto.brain to idle
-    t =    13.49s     Find the "goalNameField" TextField
-    t =    13.73s     Check for interrupting elements affecting "goalNameField" TextField
-    t =    13.95s     Synthesize event
-    t =    14.34s     Wait for it.mioprogetto.brain to idle
-    t =    14.82s Tap "saveGoalButton" Button
-    t =    14.82s     Wait for it.mioprogetto.brain to idle
-    t =    14.83s     Find the "saveGoalButton" Button
-    t =    15.24s     Check for interrupting elements affecting "saveGoalButton" Button
-    t =    15.60s     Synthesize event
-    t =    16.05s     Wait for it.mioprogetto.brain to idle
-    t =    17.58s Waiting 5.0s for "done-Camminare" Button to exist
-    t =    18.64s     Checking `Expect predicate `existsNoRetry == 1` for object "done-Camminare" Button`
-    t =    18.64s         Checking existence of `"done-Camminare" Button`
-    t =    18.77s Tap "done-Camminare" Button
-    t =    18.77s     Wait for it.mioprogetto.brain to idle
-    t =    18.78s     Find the "done-Camminare" Button
-    t =    18.88s     Check for interrupting elements affecting "done-Camminare" Button
-    t =    18.95s     Synthesize event
-    t =    19.27s     Wait for it.mioprogetto.brain to idle
-    t =    19.28s Tap "missed-Camminare" Button
-    t =    19.28s     Wait for it.mioprogetto.brain to idle
-    t =    19.32s     Find the "missed-Camminare" Button
-    t =    19.48s     Check for interrupting elements affecting "missed-Camminare" Button
-    t =    19.59s     Synthesize event
-    t =    19.94s     Wait for it.mioprogetto.brain to idle
-    t =    19.95s Find the "missed-Camminare" Button
-    t =    20.04s Waiting 2.0s for "undoButton" Button to exist
-    t =    21.08s     Checking `Expect predicate `existsNoRetry == 1` for object "undoButton" Button`
-    t =    21.08s         Checking existence of `"undoButton" Button`
-    t =    21.27s Tap "undoButton" Button
-    t =    21.27s     Wait for it.mioprogetto.brain to idle
-    t =    21.27s     Find the "undoButton" Button
-    t =    21.37s     Check for interrupting elements affecting "undoButton" Button
-    t =    21.45s     Synthesize event
+    t =    18.54s     Find the "missed-Leggere" Button
+    t =    18.61s     Check for interrupting elements affecting "missed-Leggere" Button
+    t =    18.67s     Synthesize event
+    t =    18.98s     Wait for it.mioprogetto.brain to idle
+    t =    20.05s Checking `Expect predicate `isSelected == 1` for object "missed-Leggere" Button`
+    t =    20.05s     Find the "missed-Leggere" Button
+    t =    21.18s Checking `Expect predicate `isSelected == 0` for object "done-Leggere" Button`
+    t =    21.19s     Find the "done-Leggere" Button
+    t =    21.27s Tap "missed-Leggere" Button
+    t =    21.28s     Wait for it.mioprogetto.brain to idle
+    t =    21.31s     Find the "missed-Leggere" Button
+    t =    21.41s     Check for interrupting elements affecting "missed-Leggere" Button
+    t =    21.46s     Synthesize event
     t =    21.80s     Wait for it.mioprogetto.brain to idle
-    t =    21.82s Find the "done-Camminare" Button
-    t =    22.13s Find the "missed-Camminare" Button
-    t =    22.28s Tear Down
-Test Case '-[BrainUITests.BrainUITests testUndoRestoresPreviousState]' passed (23.040 seconds).
-Test Suite 'BrainUITests' failed at 2026-10-11 13:39:29.222.
-	 Executed 3 tests, with 2 failures (0 unexpected) in 156.377 (156.382) seconds
-Test Suite 'BrainUITests.xctest' failed at 2026-10-11 13:39:29.224.
-	 Executed 3 tests, with 2 failures (0 unexpected) in 156.377 (156.384) seconds
-Test Suite 'All tests' failed at 2026-10-11 13:39:29.225.
-	 Executed 3 tests, with 2 failures (0 unexpected) in 156.377 (156.385) seconds
+    t =    22.85s Checking `Expect predicate `isSelected == 0` for object "missed-Leggere" Button`
+    t =    22.85s     Find the "missed-Leggere" Button
+    t =    23.93s Checking `Expect predicate `isSelected == 0` for object "done-Leggere" Button`
+    t =    23.93s     Find the "done-Leggere" Button
+    t =    23.99s Tear Down
+Test Case '-[BrainUITests.BrainUITests testOneTapMarksAndSecondTapClears]' passed (25.238 seconds).
+Test Case '-[BrainUITests.BrainUITests testUndoRestoresPreviousState]' started.
+    t =     0.00s Start Test at 2026-10-11 13:50:16.368
+    t =     0.03s Set Up
+    t =     0.03s     Open it.mioprogetto.brain
+    t =     0.03s         Launch it.mioprogetto.brain
+    t =     0.03s             Terminate it.mioprogetto.brain:7238
+    t =     2.71s             Setting up automation session
+    t =     3.63s             Wait for it.mioprogetto.brain to idle
+    t =     5.64s Waiting 10.0s for "newGoalButton" Button to exist
+    t =     6.69s     Checking `Expect predicate `existsNoRetry == 1` for object "newGoalButton" Button`
+    t =     6.69s         Checking existence of `"newGoalButton" Button`
+    t =     6.83s Tap "newGoalButton" Button
+    t =     6.83s     Wait for it.mioprogetto.brain to idle
+    t =     6.83s     Find the "newGoalButton" Button
+    t =     6.87s     Check for interrupting elements affecting "newGoalButton" Button
+    t =     6.90s     Synthesize event
+    t =     7.22s     Wait for it.mioprogetto.brain to idle
+    t =     8.69s Waiting 5.0s for "goalNameField" TextField to exist
+    t =     9.75s     Checking `Expect predicate `existsNoRetry == 1` for object "goalNameField" TextField`
+    t =     9.75s         Checking existence of `"goalNameField" TextField`
+    t =    10.17s Tap "goalNameField" TextField
+    t =    10.17s     Wait for it.mioprogetto.brain to idle
+    t =    10.18s     Find the "goalNameField" TextField
+    t =    10.37s     Check for interrupting elements affecting "goalNameField" TextField
+    t =    10.55s     Synthesize event
+    t =    10.87s     Wait for it.mioprogetto.brain to idle
+    t =    10.87s Type 'Camminare' into "goalNameField" TextField
+    t =    10.87s     Wait for it.mioprogetto.brain to idle
+    t =    10.90s     Find the "goalNameField" TextField
+    t =    11.46s     Check for interrupting elements affecting "goalNameField" TextField
+    t =    11.62s     Synthesize event
+    t =    11.98s     Wait for it.mioprogetto.brain to idle
+    t =    12.20s Tap "saveGoalButton" Button
+    t =    12.20s     Wait for it.mioprogetto.brain to idle
+    t =    12.20s     Find the "saveGoalButton" Button
+    t =    12.54s     Check for interrupting elements affecting "saveGoalButton" Button
+    t =    12.83s     Synthesize event
+    t =    13.24s     Wait for it.mioprogetto.brain to idle
+    t =    14.39s Waiting 5.0s for "done-Camminare" Button to exist
+    t =    15.42s     Checking `Expect predicate `existsNoRetry == 1` for object "done-Camminare" Button`
+    t =    15.42s         Checking existence of `"done-Camminare" Button`
+    t =    15.52s Tap "done-Camminare" Button
+    t =    15.52s     Wait for it.mioprogetto.brain to idle
+    t =    15.52s     Find the "done-Camminare" Button
+    t =    15.59s     Check for interrupting elements affecting "done-Camminare" Button
+    t =    15.68s     Synthesize event
+    t =    16.02s     Wait for it.mioprogetto.brain to idle
+Crea e segna "Camminare": 9.2 s
+    t =    16.04s Tap "missed-Camminare" Button
+    t =    16.04s     Wait for it.mioprogetto.brain to idle
+    t =    16.07s     Find the "missed-Camminare" Button
+    t =    16.64s     Check for interrupting elements affecting "missed-Camminare" Button
+    t =    16.80s     Synthesize event
+    t =    17.16s     Wait for it.mioprogetto.brain to idle
+    t =    18.18s Checking `Expect predicate `isSelected == 1` for object "missed-Camminare" Button`
+    t =    18.19s     Find the "missed-Camminare" Button
+    t =    18.24s Waiting 2.0s for "undoButton" Button to exist
+    t =    19.25s     Checking `Expect predicate `existsNoRetry == 1` for object "undoButton" Button`
+    t =    19.25s         Checking existence of `"undoButton" Button`
+    t =    19.36s Tap "undoButton" Button
+    t =    19.36s     Wait for it.mioprogetto.brain to idle
+    t =    19.37s     Find the "undoButton" Button
+    t =    19.54s     Check for interrupting elements affecting "undoButton" Button
+    t =    19.68s     Synthesize event
+    t =    19.97s     Wait for it.mioprogetto.brain to idle
+    t =    21.04s Checking `Expect predicate `isSelected == 1` for object "done-Camminare" Button`
+    t =    21.04s     Find the "done-Camminare" Button
+    t =    22.12s Checking `Expect predicate `isSelected == 0` for object "missed-Camminare" Button`
+    t =    22.12s     Find the "missed-Camminare" Button
+    t =    22.19s Tear Down
+Test Case '-[BrainUITests.BrainUITests testUndoRestoresPreviousState]' passed (27.125 seconds).
+Test Suite 'BrainUITests' passed at 2026-10-11 13:50:43.494.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 119.198 (119.203) seconds
+Test Suite 'BrainUITests.xctest' passed at 2026-10-11 13:50:43.496.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 119.198 (119.205) seconds
+Test Suite 'All tests' passed at 2026-10-11 13:50:43.498.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 119.198 (119.214) seconds
 
 Test session results, code coverage, and logs:
 	/Users/runner/work/Brain./Brain./TestResults.xcresult
 
+** TEST SUCCEEDED **
+
 Testing started
-Test suite 'GoalRulesTests' started on 'Clone 1 of iPhone 17 - Brain (6027)'
-Test case 'GoalRulesTests.testDailyGoalIgnoresValue()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.002 seconds)
-Test case 'GoalRulesTests.testEffectiveStatusesDropsUnregistered()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.004 seconds)
-Test case 'GoalRulesTests.testHealthValuePastDayIsFinal()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'GoalRulesTests.testHealthValueTodayIsInProgress()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'GoalRulesTests.testManualValueAtLeast()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'GoalRulesTests.testManualValueAtMost()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'GoalRulesTests.testManualValueTodayCountsImmediately()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'GoalRulesTests.testNumericWithoutValueUsesStoredStatus()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'GoalRulesTests.testParseItalianNumbers()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'GoalRulesTests.testPauseWinsOverValue()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test suite 'MonthSummaryTests' started on 'Clone 1 of iPhone 17 - Brain (6027)'
-Test case 'MonthSummaryTests.testAllMissedIsZeroPercent()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.002 seconds)
-Test case 'MonthSummaryTests.testEntriesOutsideValidRangeAreIgnored()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'MonthSummaryTests.testFullPastMonthCountsEveryDay()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.002 seconds)
-Test case 'MonthSummaryTests.testFutureMonthIsEmpty()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'MonthSummaryTests.testMonthBeforeStartDayIsEmpty()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.032 seconds)
-Test case 'MonthSummaryTests.testOctoberMatchesMockup()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'MonthSummaryTests.testOnlyUnregisteredDaysHaveNoPercentage()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.002 seconds)
-Test case 'MonthSummaryTests.testPercentRounding()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.002 seconds)
-Test case 'MonthSummaryTests.testSeptemberStartsFromStartDay()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.002 seconds)
-Test case 'MonthSummaryTests.testTodayWithoutEntryIsNotCountedAsUnregistered()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'MonthSummaryTests.testUnregisteredDaysDoNotCountAsMissed()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test suite 'BackupCodecTests' started on 'Clone 1 of iPhone 17 - Brain (6027)'
-Test case 'BackupCodecTests.testCleansInvalidData()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.006 seconds)
-Test case 'BackupCodecTests.testRejectsNewerFormat()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.003 seconds)
-Test case 'BackupCodecTests.testRejectsOtherFiles()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.003 seconds)
-Test case 'BackupCodecTests.testRoundTrip()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'BackupCodecTests.testSuggestedFileName()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test suite 'DayKeyTests' started on 'Clone 1 of iPhone 17 - Brain (6027)'
-Test case 'DayKeyTests.testAddingAcrossMonthYearAndLeapDay()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.002 seconds)
-Test case 'DayKeyTests.testComparable()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'DayKeyTests.testConsecutiveOrdinalsAreConsecutiveDates()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.010 seconds)
-Test case 'DayKeyTests.testDateConversionAroundDaylightSavingChange()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (9.342 seconds)
-Test case 'DayKeyTests.testInvalidRawValuesAreRejected()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.011 seconds)
-Test case 'DayKeyTests.testIsoWeekday()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'DayKeyTests.testOrdinalReferencePoints()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'DayKeyTests.testOrdinalRoundTripOverManyYears()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.008 seconds)
-Test case 'DayKeyTests.testRawValueRoundTrip()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test suite 'StreakTests' started on 'Clone 1 of iPhone 17 - Brain (6027)'
-Test case 'StreakTests.testBestStreakAcrossLeapDay()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'StreakTests.testBestStreakAcrossYearBoundary()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'StreakTests.testBestStreakEqualsCurrentWhenItIsTheLongest()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'StreakTests.testBestStreakIgnoresDaysBeforeStartAndAfterToday()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'StreakTests.testBestStreakIsNilWithoutDoneDays()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.002 seconds)
-Test case 'StreakTests.testBestStreakMatchesMockup()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.002 seconds)
-Test case 'StreakTests.testBestStreakTieKeepsMostRecent()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.002 seconds)
-Test case 'StreakTests.testCurrentStreakCrossesMonthBoundary()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'StreakTests.testCurrentStreakMatchesMockup()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.000 seconds)
-Test case 'StreakTests.testCurrentStreakStopsAtStartDay()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'StreakTests.testCurrentStreakWithNoEntries()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'StreakTests.testFirstDayDoneGivesStreakOfOne()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.000 seconds)
-Test case 'StreakTests.testTodayMissedResetsStreak()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'StreakTests.testTodayNotYetRegisteredKeepsStreakAlive()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'StreakTests.testUnregisteredPastDayBreaksStreak()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.002 seconds)
-Test case 'StreakTests.testYesterdayUnregisteredAndTodayUnregisteredMeansNoStreak()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.002 seconds)
-Test suite 'PauseTests' started on 'Clone 1 of iPhone 17 - Brain (6027)'
-Test case 'PauseTests.testOnlyPausedDaysGiveNoStreak()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'PauseTests.testPausedDaysAreExcludedFromPercentage()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.395 seconds)
-Test case 'PauseTests.testPauseDoesNotBreakBestStreak()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.002 seconds)
-Test case 'PauseTests.testPauseDoesNotBreakCurrentStreak()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.002 seconds)
-Test case 'PauseTests.testTodayPausedKeepsStreakFromYesterday()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.002 seconds)
-Test case 'PauseTests.testTotalsSinceStart()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.002 seconds)
-Test case 'PauseTests.testUnregisteredTodayDoesNotCloseBestStreak()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.003 seconds)
-Test suite 'ReminderPlannerTests' started on 'Clone 1 of iPhone 17 - Brain (6027)'
-Test case 'ReminderPlannerTests.testEmptyHorizon()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'ReminderPlannerTests.testIncludesTodayBeforeReminderTimeWhenSomethingIsPending()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.002 seconds)
-Test case 'ReminderPlannerTests.testSkipsTodayAfterReminderTime()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.040 seconds)
-Test case 'ReminderPlannerTests.testSkipsTodayAtExactReminderMinute()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'ReminderPlannerTests.testSkipsTodayWhenEverythingIsRegistered()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test suite 'WeeklyStatsTests' started on 'Clone 1 of iPhone 17 - Brain (6027)'
-Test case 'WeeklyStatsTests.testBestStreakOfWeeks()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'WeeklyStatsTests.testCurrentStreakIgnoresWeekInProgress()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.002 seconds)
-Test case 'WeeklyStatsTests.testCurrentWeekIsInProgressUntilSundayIsOver()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.002 seconds)
-Test case 'WeeklyStatsTests.testCurrentWeekSucceedsEarly()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.002 seconds)
-Test case 'WeeklyStatsTests.testEndedWeekBelowTargetFails()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.002 seconds)
-Test case 'WeeklyStatsTests.testFailedWeekBreaksStreak()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.236 seconds)
-Test case 'WeeklyStatsTests.testFirstPartialWeekUsesOnlyDaysAfterStart()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'WeeklyStatsTests.testFullyPausedWeekIsNeutralAndDoesNotBreakStreak()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'WeeklyStatsTests.testMonthSummaryAssignsWeeksByTheirSunday()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.002 seconds)
-Test case 'WeeklyStatsTests.testPausedDaysLowerTheWeeklyTarget()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.007 seconds)
-Test case 'WeeklyStatsTests.testWeekStart()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'WeeklyStatsTests.testWeekSucceedsWhenTargetReached()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test suite 'MonthGridTests' started on 'Clone 1 of iPhone 17 - Brain (6027)'
-Test case 'MonthGridTests.testMonthStartingOnMondayHasNoBlanks()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'MonthGridTests.testMonthStartingOnSundayNeedsSixWeeks()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.148 seconds)
-Test case 'MonthGridTests.testOctober2026StartsOnThursday()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'MonthGridTests.testYearMonthBounds()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'MonthGridTests.testYearMonthNavigation()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test suite 'InsightsTests' started on 'Clone 1 of iPhone 17 - Brain (6027)'
-Test case 'InsightsTests.testReminderHorizonRespectsNotificationLimit()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'InsightsTests.testWeakestWeekday()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'InsightsTests.testWeakestWeekdayNeedsEnoughData()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.211 seconds)
-Test case 'InsightsTests.testWeekdayStatsForMockup()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'InsightsTests.testWeekdayStatsWithFutureStartIsEmpty()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'InsightsTests.testYearHeatmap2026()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.001 seconds)
-Test case 'InsightsTests.testYearHeatmapLeapYear()' passed on 'Clone 1 of iPhone 17 - Brain (6027)' (0.002 seconds)
+Test suite 'PauseTests' started on 'Clone 1 of iPhone 17 - Brain (8505)'
+Test case 'PauseTests.testOnlyPausedDaysGiveNoStreak()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.004 seconds)
+Test case 'PauseTests.testPausedDaysAreExcludedFromPercentage()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'PauseTests.testPauseDoesNotBreakBestStreak()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.000 seconds)
+Test case 'PauseTests.testPauseDoesNotBreakCurrentStreak()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.000 seconds)
+Test case 'PauseTests.testTodayPausedKeepsStreakFromYesterday()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.005 seconds)
+Test case 'PauseTests.testTotalsSinceStart()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.002 seconds)
+Test case 'PauseTests.testUnregisteredTodayDoesNotCloseBestStreak()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test suite 'MonthSummaryTests' started on 'Clone 1 of iPhone 17 - Brain (8505)'
+Test case 'MonthSummaryTests.testAllMissedIsZeroPercent()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'MonthSummaryTests.testEntriesOutsideValidRangeAreIgnored()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.002 seconds)
+Test case 'MonthSummaryTests.testFullPastMonthCountsEveryDay()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.002 seconds)
+Test case 'MonthSummaryTests.testFutureMonthIsEmpty()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'MonthSummaryTests.testMonthBeforeStartDayIsEmpty()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'MonthSummaryTests.testOctoberMatchesMockup()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'MonthSummaryTests.testOnlyUnregisteredDaysHaveNoPercentage()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.000 seconds)
+Test case 'MonthSummaryTests.testPercentRounding()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.000 seconds)
+Test case 'MonthSummaryTests.testSeptemberStartsFromStartDay()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'MonthSummaryTests.testTodayWithoutEntryIsNotCountedAsUnregistered()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'MonthSummaryTests.testUnregisteredDaysDoNotCountAsMissed()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test suite 'BackupCodecTests' started on 'Clone 1 of iPhone 17 - Brain (8505)'
+Test case 'BackupCodecTests.testCleansInvalidData()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.010 seconds)
+Test case 'BackupCodecTests.testRejectsNewerFormat()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.002 seconds)
+Test case 'BackupCodecTests.testRejectsOtherFiles()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.004 seconds)
+Test case 'BackupCodecTests.testRoundTrip()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'BackupCodecTests.testSuggestedFileName()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test suite 'DayKeyTests' started on 'Clone 1 of iPhone 17 - Brain (8505)'
+Test case 'DayKeyTests.testAddingAcrossMonthYearAndLeapDay()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.004 seconds)
+Test case 'DayKeyTests.testComparable()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'DayKeyTests.testConsecutiveOrdinalsAreConsecutiveDates()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.006 seconds)
+Test case 'DayKeyTests.testDateConversionAroundDaylightSavingChange()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (4.799 seconds)
+Test case 'DayKeyTests.testInvalidRawValuesAreRejected()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.027 seconds)
+Test case 'DayKeyTests.testIsoWeekday()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'DayKeyTests.testOrdinalReferencePoints()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'DayKeyTests.testOrdinalRoundTripOverManyYears()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.004 seconds)
+Test case 'DayKeyTests.testRawValueRoundTrip()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test suite 'StreakTests' started on 'Clone 1 of iPhone 17 - Brain (8505)'
+Test case 'StreakTests.testBestStreakAcrossLeapDay()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'StreakTests.testBestStreakAcrossYearBoundary()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'StreakTests.testBestStreakEqualsCurrentWhenItIsTheLongest()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'StreakTests.testBestStreakIgnoresDaysBeforeStartAndAfterToday()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.002 seconds)
+Test case 'StreakTests.testBestStreakIsNilWithoutDoneDays()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.033 seconds)
+Test case 'StreakTests.testBestStreakMatchesMockup()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.002 seconds)
+Test case 'StreakTests.testBestStreakTieKeepsMostRecent()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.002 seconds)
+Test case 'StreakTests.testCurrentStreakCrossesMonthBoundary()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.002 seconds)
+Test case 'StreakTests.testCurrentStreakMatchesMockup()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.002 seconds)
+Test case 'StreakTests.testCurrentStreakStopsAtStartDay()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'StreakTests.testCurrentStreakWithNoEntries()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'StreakTests.testFirstDayDoneGivesStreakOfOne()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'StreakTests.testTodayMissedResetsStreak()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'StreakTests.testTodayNotYetRegisteredKeepsStreakAlive()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'StreakTests.testUnregisteredPastDayBreaksStreak()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.063 seconds)
+Test case 'StreakTests.testYesterdayUnregisteredAndTodayUnregisteredMeansNoStreak()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.002 seconds)
+Test suite 'ReminderPlannerTests' started on 'Clone 1 of iPhone 17 - Brain (8505)'
+Test case 'ReminderPlannerTests.testEmptyHorizon()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'ReminderPlannerTests.testIncludesTodayBeforeReminderTimeWhenSomethingIsPending()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'ReminderPlannerTests.testSkipsTodayAfterReminderTime()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.002 seconds)
+Test case 'ReminderPlannerTests.testSkipsTodayAtExactReminderMinute()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.002 seconds)
+Test case 'ReminderPlannerTests.testSkipsTodayWhenEverythingIsRegistered()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.002 seconds)
+Test suite 'GoalRulesTests' started on 'Clone 1 of iPhone 17 - Brain (8505)'
+Test case 'GoalRulesTests.testDailyGoalIgnoresValue()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'GoalRulesTests.testEffectiveStatusesDropsUnregistered()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'GoalRulesTests.testHealthValuePastDayIsFinal()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'GoalRulesTests.testHealthValueTodayIsInProgress()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'GoalRulesTests.testManualValueAtLeast()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.020 seconds)
+Test case 'GoalRulesTests.testManualValueAtMost()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'GoalRulesTests.testManualValueTodayCountsImmediately()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.000 seconds)
+Test case 'GoalRulesTests.testNumericWithoutValueUsesStoredStatus()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.000 seconds)
+Test case 'GoalRulesTests.testParseItalianNumbers()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.007 seconds)
+Test case 'GoalRulesTests.testPauseWinsOverValue()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.092 seconds)
+Test suite 'WeeklyStatsTests' started on 'Clone 1 of iPhone 17 - Brain (8505)'
+Test case 'WeeklyStatsTests.testBestStreakOfWeeks()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'WeeklyStatsTests.testCurrentStreakIgnoresWeekInProgress()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'WeeklyStatsTests.testCurrentWeekIsInProgressUntilSundayIsOver()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'WeeklyStatsTests.testCurrentWeekSucceedsEarly()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'WeeklyStatsTests.testEndedWeekBelowTargetFails()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'WeeklyStatsTests.testFailedWeekBreaksStreak()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'WeeklyStatsTests.testFirstPartialWeekUsesOnlyDaysAfterStart()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'WeeklyStatsTests.testFullyPausedWeekIsNeutralAndDoesNotBreakStreak()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.128 seconds)
+Test case 'WeeklyStatsTests.testMonthSummaryAssignsWeeksByTheirSunday()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'WeeklyStatsTests.testPausedDaysLowerTheWeeklyTarget()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'WeeklyStatsTests.testWeekStart()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.002 seconds)
+Test case 'WeeklyStatsTests.testWeekSucceedsWhenTargetReached()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test suite 'MonthGridTests' started on 'Clone 1 of iPhone 17 - Brain (8505)'
+Test case 'MonthGridTests.testMonthStartingOnMondayHasNoBlanks()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.002 seconds)
+Test case 'MonthGridTests.testMonthStartingOnSundayNeedsSixWeeks()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.004 seconds)
+Test case 'MonthGridTests.testOctober2026StartsOnThursday()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.003 seconds)
+Test case 'MonthGridTests.testYearMonthBounds()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.070 seconds)
+Test case 'MonthGridTests.testYearMonthNavigation()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test suite 'InsightsTests' started on 'Clone 1 of iPhone 17 - Brain (8505)'
+Test case 'InsightsTests.testReminderHorizonRespectsNotificationLimit()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'InsightsTests.testWeakestWeekday()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.002 seconds)
+Test case 'InsightsTests.testWeakestWeekdayNeedsEnoughData()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.072 seconds)
+Test case 'InsightsTests.testWeekdayStatsForMockup()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'InsightsTests.testWeekdayStatsWithFutureStartIsEmpty()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.001 seconds)
+Test case 'InsightsTests.testYearHeatmap2026()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.002 seconds)
+Test case 'InsightsTests.testYearHeatmapLeapYear()' passed on 'Clone 1 of iPhone 17 - Brain (8505)' (0.002 seconds)

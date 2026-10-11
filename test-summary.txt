@@ -1,11 +1,7 @@
-1415:/Users/runner/work/Brain./Brain./BrainUITests/BrainUITests.swift:41: error: -[BrainUITests.BrainUITests testCreateGoalAndMarkDoneInUnder30Seconds] : XCTAssertLessThan failed: ("42.765703082084656") is not less than ("30.0") - Creare e segnare un obiettivo ha richiesto 42 secondi
-1417:Test Case '-[BrainUITests.BrainUITests testCreateGoalAndMarkDoneInUnder30Seconds]' failed (109.470 seconds).
-1474:/Users/runner/work/Brain./Brain./BrainUITests/BrainUITests.swift:54: error: -[BrainUITests.BrainUITests testOneTapMarksAndSecondTapClears] : XCTAssertFalse failed
-1476:Test Case '-[BrainUITests.BrainUITests testOneTapMarksAndSecondTapClears]' failed (23.867 seconds).
-1543:Test Case '-[BrainUITests.BrainUITests testUndoRestoresPreviousState]' passed (23.040 seconds).
-1544:Test Suite 'BrainUITests' failed at 2026-10-11 13:39:29.222.
-1545:	 Executed 3 tests, with 2 failures (0 unexpected) in 156.377 (156.382) seconds
-1546:Test Suite 'BrainUITests.xctest' failed at 2026-10-11 13:39:29.224.
-1547:	 Executed 3 tests, with 2 failures (0 unexpected) in 156.377 (156.384) seconds
-1548:Test Suite 'All tests' failed at 2026-10-11 13:39:29.225.
-1549:	 Executed 3 tests, with 2 failures (0 unexpected) in 156.377 (156.385) seconds
+1420:Test Case '-[BrainUITests.BrainUITests testCreateGoalAndMarkDoneQuickly]' passed (66.834 seconds).
+1492:Test Case '-[BrainUITests.BrainUITests testOneTapMarksAndSecondTapClears]' passed (25.238 seconds).
+1563:Test Case '-[BrainUITests.BrainUITests testUndoRestoresPreviousState]' passed (27.125 seconds).
+1565:	 Executed 3 tests, with 0 failures (0 unexpected) in 119.198 (119.203) seconds
+1567:	 Executed 3 tests, with 0 failures (0 unexpected) in 119.198 (119.205) seconds
+1569:	 Executed 3 tests, with 0 failures (0 unexpected) in 119.198 (119.214) seconds
+1574:** TEST SUCCEEDED **
