@@ -4,7 +4,12 @@ name: Build e test iOS
 
 on:
   push:
+    branches-ignore:
+      - ci-logs
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 concurrency:
   group: ios-${{ github.ref }}
@@ -54,6 +59,12 @@ jobs:
         run: |
           grep -E "error:|warning: .*(deprecated|will be an error)|Test Case .* failed|XCTAssert" xcodebuild-test.log | head -200 || true
 
+      - name: Pubblica il log sul branch ci-logs
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bash .github/scripts/publish-log.sh xcodebuild-test.log test
+
       - name: Salva log e risultati
         if: always()
         uses: actions/upload-artifact@v4
@@ -91,6 +102,12 @@ jobs:
             CODE_SIGNING_REQUIRED=NO \
             CODE_SIGN_IDENTITY="" \
             | tee xcodebuild-ipa.log
+
+      - name: Pubblica il log sul branch ci-logs
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bash .github/scripts/publish-log.sh xcodebuild-ipa.log ipa
 
       - name: Crea Brain.ipa
         run: |
