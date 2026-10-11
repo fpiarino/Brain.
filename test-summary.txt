@@ -1,0 +1,7 @@
+1420:Test Case '-[BrainUITests.BrainUITests testCreateGoalAndMarkDoneQuickly]' passed (56.256 seconds).
+1492:Test Case '-[BrainUITests.BrainUITests testOneTapMarksAndSecondTapClears]' passed (26.369 seconds).
+1563:Test Case '-[BrainUITests.BrainUITests testUndoRestoresPreviousState]' passed (19.223 seconds).
+1565:	 Executed 3 tests, with 0 failures (0 unexpected) in 101.849 (101.851) seconds
+1567:	 Executed 3 tests, with 0 failures (0 unexpected) in 101.849 (101.852) seconds
+1569:	 Executed 3 tests, with 0 failures (0 unexpected) in 101.849 (101.853) seconds
+1574:** TEST SUCCEEDED **
