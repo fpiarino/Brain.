@@ -16,7 +16,9 @@ App iPhone per tracciare obiettivi. Ogni giorno segni ciascun obiettivo come fat
 
 Le scelte di progetto sono in [DECISIONI.md](DECISIONI.md).
 
-> **Non hai un Mac?** Segui [INSTALLA.md](INSTALLA.md): l'app viene compilata e testata in automatico su GitHub e si installa da un PC Windows con Sideloadly.
+> **Non hai un Mac?** Usa la **web app**: apri https://fpiarino.github.io/Brain./ in Safari sull'iPhone e aggiungila alla schermata Home. Gratis, senza scadenze. Istruzioni in [INSTALLA.md](INSTALLA.md).
+>
+> La web app è nella cartella `web/` (JavaScript, nessuna libreria esterna, stessa logica dell'app iOS con i suoi test in `web/tests/`). Viene testata e pubblicata in automatico su GitHub Pages a ogni modifica.
 
 ---
 

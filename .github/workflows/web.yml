@@ -1,0 +1,54 @@
+# Pubblica la web app (cartella web/) su GitHub Pages dopo aver eseguito i test della logica.
+# Indirizzo: https://<utente>.github.io/<repository>/
+name: Web app
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'web/**'
+      - '.github/workflows/web.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Test della logica
+        run: node --test web/tests/logic.test.mjs
+
+      - name: Prepara il sito
+        run: |
+          mkdir site
+          cp -r web/* site/
+          rm -rf site/tests site/package.json
+          # Nuova versione della copia offline a ogni pubblicazione.
+          sed -i "s/__BUILD__/${GITHUB_SHA::7}/" site/sw.js
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Pubblica
+        id: deployment
+        uses: actions/deploy-pages@v4

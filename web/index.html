@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Brain</title>
+  <meta name="description" content="Obiettivi giornalieri: un pallino verde o rosso per ogni giorno.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Brain">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="theme-color" content="#F2F2F7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icons/icon-180.png">
+  <link rel="icon" type="image/png" href="icons/icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <main id="app" aria-live="off"></main>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <dialog id="sheet" class="sheet"></dialog>
+  <div id="live" class="sr-only" aria-live="polite"></div>
+  <noscript><p class="card">Brain ha bisogno di JavaScript attivo in Safari.</p></noscript>
+</body>
+</html>

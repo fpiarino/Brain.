@@ -1,38 +1,34 @@
-# Installare Brain sull'iPhone (da PC Windows, gratis)
+# Installare Brain sull'iPhone
 
-## La prima volta
+## Web app (consigliata): gratis, senza PC, senza scadenze
 
-**1. Prepara il PC**
-Scarica e installa, nell'ordine:
-- **iTunes** e **iCloud** dal sito apple.com. Devono essere le versioni del sito Apple, **non** quelle del Microsoft Store: se hai quelle, disinstallale prima.
-- **Sideloadly** da [sideloadly.io](https://sideloadly.io).
+1. Sull'iPhone apri **Safari** (deve essere Safari) e vai su **https://fpiarino.github.io/Brain./**
+2. Tocca **Condividi** (il quadrato con la freccia verso l'alto), poi **Aggiungi alla schermata Home**, poi **Aggiungi**.
+3. Apri Brain dall'icona blu con la **«B.»** sulla schermata Home.
 
-**2. Scarica l'app**
-Apri questo link: **[Brain.ipa](https://github.com/fpiarino/Brain./releases/latest/download/Brain.ipa)**. Scarica sempre l'ultima versione.
+Fatto. Non serve altro: niente cavo, niente Apple ID, niente Modalità sviluppatore, niente rinnovi.
 
-**3. Installa**
-1. Collega l'iPhone al PC con il cavo, sbloccalo e tocca **Autorizza** se chiede di fidarti del computer.
-2. Apri Sideloadly e trascina `Brain.ipa` nella finestra.
-3. Inserisci il tuo Apple ID e premi **Start**. La prima volta chiede la password e il codice di verifica che arriva sui tuoi dispositivi Apple.
+**Da sapere**
+- **Usa sempre l'icona sulla Home.** I dati salvati aprendo il sito in Safari sono separati da quelli dell'app installata.
+- **I dati restano solo sul telefono.** Ogni tanto fai un backup: in Brain tocca **⋯** → *Backup e ripristino* → *Esporta backup* e salvalo in File o in iCloud Drive. Se elimini l'icona dalla Home, iOS cancella anche i dati.
+- **Funziona anche senza internet.** Quando sei online gli aggiornamenti arrivano da soli alla riapertura.
+- **Limiti rispetto all'app nativa:** niente widget, niente Apple Salute, niente promemoria serale.
+- **Se avevi usato l'app nativa:** esporta il backup da lì e importalo nella web app, il formato è lo stesso.
 
-**4. Autorizza sull'iPhone**
-- *Impostazioni → Generali → VPN e gestione dispositivi* → tocca il tuo Apple ID → **Autorizza**.
-- Se all'apertura iOS lo chiede: *Impostazioni → Privacy e sicurezza → Modalità sviluppatore* → attiva e riavvia.
+**Se vuoi tornare come prima** (dopo aver provato la web app)
+- Elimina l'app nativa Brain installata con Sideloadly: tieni premuta l'icona → *Rimuovi app*. Attenzione a non eliminare l'icona della web app.
+- Disattiva la Modalità sviluppatore: *Impostazioni → Privacy e sicurezza → Modalità sviluppatore*.
+- Dal PC puoi disinstallare Sideloadly, iTunes e iCloud se non ti servono per altro.
 
-Fatto: apri **Brain**.
+---
 
-## Ogni 7 giorni
+## App nativa (alternativa, con widget e Apple Salute)
 
-Con l'Apple ID gratuito l'app smette di aprirsi dopo 7 giorni. Per rinnovarla rifai solo il **passo 3**: i tuoi dati restano.
+Richiede un PC Windows, Sideloadly e il rinnovo ogni 7 giorni.
 
-Per non pensarci, attiva il **rinnovo automatico** di Sideloadly. Funziona se il PC è acceso e sulla stessa rete Wi-Fi dell'iPhone.
+1. Sul PC installa iTunes e iCloud dal sito apple.com (non dal Microsoft Store) e [Sideloadly](https://sideloadly.io).
+2. Scarica [Brain.ipa](https://github.com/fpiarino/Brain./releases/latest/download/Brain.ipa).
+3. Collega l'iPhone, trascina `Brain.ipa` in Sideloadly, inserisci il tuo Apple ID e premi **Start**.
+4. Sull'iPhone autorizza lo sviluppatore (*Impostazioni → Generali → VPN e gestione dispositivi*) e attiva la *Modalità sviluppatore*.
 
-## Aggiornamenti
-
-Quando l'app viene migliorata, il link del passo 2 scarica già la nuova versione. Ripeti il passo 3: i dati restano.
-
-## Da sapere
-
-- Prima di eliminare l'app dal telefono fai un backup (in Brain: menu **⋯** → *Backup e ripristino*), perché eliminandola si perdono i dati.
-- Con questo metodo **widget e Apple Salute** potrebbero non funzionare: dipendono da permessi che la firma gratuita non sempre concede. Il resto dell'app funziona normalmente.
-- Sideloadly è uno strumento di terze parti e ti chiede le credenziali del tuo Apple ID. Se preferisci, usa un Apple ID secondario creato apposta.
+Ogni 7 giorni ripeti il passo 3; i dati restano.
