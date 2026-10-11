@@ -171,7 +171,8 @@ struct StatusToggleButton: View {
         .sensoryFeedback(.selection, trigger: isSelected)
         .accessibilityLabel(kind == .done ? "Fatto" : "Non fatto")
         .accessibilityHint(isSelected ? "Tocca di nuovo per tornare a non registrato" : "Registra la giornata di oggi")
-        .accessibilityAddTraits(isSelected ? .isSelected : [])
+        .accessibilityAddTraits(isSelected ? [.isSelected] : [])
+        .accessibilityRemoveTraits(isSelected ? [] : [.isSelected])
         .accessibilityIdentifier("\(kind == .done ? "done" : "missed")-\(goalName)")
     }
 }

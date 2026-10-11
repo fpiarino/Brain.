@@ -44,6 +44,10 @@ jobs:
           echo "id=$DEVICE_ID" >> "$GITHUB_OUTPUT"
 
       - name: Compila e testa
+        env:
+          # Il simulatore sui server di GitHub è molto più lento di un Mac:
+          # per il test "crea e segna" il limite sale da 30 a 90 secondi.
+          TEST_RUNNER_BRAIN_UI_TIME_LIMIT: "90"
         run: |
           set -o pipefail
           xcodebuild test \
